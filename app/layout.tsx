@@ -1,4 +1,3 @@
-// @ts-expect-error -- Next.js handles CSS side-effect imports at build time.
 import "@/app/ui/global.css";
 import { inter } from "@/app/ui/fonts";
 export default function RootLayout({
